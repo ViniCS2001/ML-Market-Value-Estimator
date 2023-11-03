@@ -1,4 +1,4 @@
-This is the User Interface for the Machine Learning Project
+This project uses ML models with the Random Forest Algorithm in order to predict/estimate the market values of football players based on their statistics.
 
 ### Prerequisites
 You must have Scikit Learn, Pandas (for Machine Learning Model) and Flask installed.
