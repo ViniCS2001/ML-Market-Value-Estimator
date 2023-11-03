@@ -5,7 +5,7 @@ You must have Scikit Learn, Pandas (for Machine Learning Model) and Flask instal
 
 ### Project Structure
 This project has four major parts :
-1. RF_Model.ipynb - This contains code for our Machine Learning model to predict the market value of football players using Random Forest Model.
+1. RF_Model.ipynb & RF_Model2.ipynb - These files contain code for our Machine Learning models to predict the market value of football players using Random Forest Model with different input parameters.
 2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the predicted value based on our model and returns it.
 3. request.py - This uses requests module to call APIs already defined in app.py and displays the returned value.
 4. templates - This folder contains the HTML template to allow user to enter the stats and displays the predicted market value.
