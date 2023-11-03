@@ -17,7 +17,7 @@ python model.py
 ```
 This would create a serialized version of our model into a file RF_model_app.pkl
 
-2. Run app.py using below command to start Flask API
+2. Run app.py using the below command to start Flask API
 ```
 python app.py
 ```
@@ -26,11 +26,12 @@ By default, flask will run on port 5000.
 3. Navigate to URL http://localhost:5000
 
 You should be able to view the homepage as below :
-![alt text](http://www.thepythonblog.com/wp-content/uploads/2019/02/Homepage.png)
+![ML_UI](https://github.com/ViniCS2001/ML-Market-Value-Estimator/assets/97949821/c01d11dc-ecf8-4adc-8429-c60fe58ceb6b)
+
 
 Enter valid numerical values in all input boxes and hit Predict.
 
-If everything goes well, you should  be able to see the predicted salary value on the HTML page!
+If everything goes well, you should be able to see the predicted salary value on the HTML page!
 
 4. You can also send direct POST requests to Flask API using Python's inbuilt request module
 Run the below command to send the request with some pre-populated values -
